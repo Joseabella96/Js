@@ -9,14 +9,119 @@
 <body>
 
 <div class="cuadro">
-
 <div id="js">
-
     <h1>JavaScript</h1>
-
+</div>
 </div>
 
-</div>
+<Script>
+
+    var f = 5;
+    var g = 10;
+    
+    if (f < g){
+    
+      document.write("Correcto");
+    
+    }
+    
+    else {
+    
+    document.write("Incorrecto");
+    
+    }
+    
+
+
+var Valor1 = prompt("Ingresa un numero entero:");
+var num1 = parseInt(Valor1);
+
+
+var Valor2 = prompt("Ingresa otro numero entero:");
+var num2 = parseInt(Valor2);
+
+var resultado = num1 + num2
+
+
+alert("El resultado de la suma es: " + resultado);   
+
+
+
+var f = 95;
+var g = 100;
+
+
+if (f > g){
+  document.write("Correcto");
+
+}
+
+else if (f > g ) {
+
+document.write("Esto es correcto");
+}
+
+else {
+
+document.write("Incorrecto");
+
+}
+
+
+
+var dia = 7;
+
+switch (dia){
+case 1:
+document.write("Lunes");
+break;
+
+case 2:
+    document.write("Martes");
+    break; 
+    
+    case 3:
+    document.write("Miercoles");
+    break;
+
+    case 4:
+    document.write("Jueves");
+    break;
+
+    case 5:
+    document.write("Viernes");
+    break;
+
+    case 6:
+    document.write("Sabado");
+    break;
+
+    case 7:
+    document.write("Domingo");
+    break;
+
+    default:
+        document.write("El dia es incorrecto")
+}
+
+
+
+var w = prompt("Ingresa un Num")
+
+for (i=0; i<=w; i++){
+    document.write(i + " ");
+}  
+
+for (i=w-1; i>=0; i--){
+    document.write(i + " ");
+}
+
+
+
+
+</Script>
+
+
     
 </body>
 </html>
