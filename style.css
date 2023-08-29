@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#js{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 25px;
+    color: coral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#js:hover{
+    background-color: black;
+    color: red;
+}
+
+.cuadro{
+    width: 400px;
+    height: 50%;
+    border: 2px solid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
